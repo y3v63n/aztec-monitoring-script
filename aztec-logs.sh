@@ -2009,7 +2009,7 @@ GSE_ADDRESS_TESTNET="0xb6a38a51a6c1de9012f9d8ea9745ef957212eaac" # Testnet new G
 GSE_ADDRESS_MAINNET="0xa92ecfd0e70c9cd5e5cd76c50af0f7da93567a4f"
 
 # Function signature for contract calls
-FUNCTION_SIG="getPendingCheckpointNumber()"
+FUNCTION_SIG="getPendingBlockNumber()"
 
 # Required tools
 REQUIRED_TOOLS=("cast" "curl" "grep" "sed" "jq" "bc" "python3")
